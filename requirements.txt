@@ -1,0 +1,11 @@
+# PyTorch (already installed with CUDA support locally — not pinned here)
+transformers
+datasets
+sacrebleu
+sentencepiece
+sacremoses
+pandas
+numpy
+matplotlib
+streamlit
+tqdm

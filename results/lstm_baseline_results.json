@@ -1,0 +1,8 @@
+{
+  "model": "LSTM Seq2Seq (no attention)",
+  "epochs_trained": 2,
+  "embed_dim": 128,
+  "hidden_dim": 256,
+  "subset_size": 180000,
+  "bleu_score": 0.08650852124153295
+}

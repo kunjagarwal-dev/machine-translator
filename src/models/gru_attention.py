@@ -103,7 +103,7 @@ class Seq2Seq(nn.Module):
         # (batch, src_len) -- 1 for real tokens, 0 for padding
         return (src != self.pad_idx).long()
 
-    def forward(self, src, tgt, teacher_forcing_ratio=0.5, return_attention=True):
+    def forward(self, src, tgt, teacher_forcing_ratio=0.5, return_attention=False):
         batch_size, tgt_len = tgt.shape
         tgt_vocab_size = self.decoder.fc_out.out_features
 

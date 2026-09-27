@@ -1,0 +1,9 @@
+{
+  "model": "MarianMT (Helsinki-NLP opus-mt, zero-shot, no fine-tuning)",
+  "en_hi": {
+    "bleu_score": 9.85
+  },
+  "hi_en": {
+    "bleu_score": 13.42
+  }
+}

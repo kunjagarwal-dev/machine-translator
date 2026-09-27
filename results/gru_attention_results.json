@@ -1,0 +1,8 @@
+{
+  "model": "GRU with attention",
+  "epochs_trained": 2,
+  "embed_dim": 128,
+  "hidden_dim": 256,
+  "subset_size": 180000,
+  "bleu_score": 0.6055491481088403
+}

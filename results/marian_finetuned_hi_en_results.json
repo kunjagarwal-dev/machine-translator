@@ -1,0 +1,5 @@
+{
+  "model": "MarianMT HI-EN, fine-tuned (2 epochs, manual loop)",
+  "bleu_score": 14.97507663523769,
+  "baseline_bleu_score": 9.85
+}

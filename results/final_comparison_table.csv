@@ -1,0 +1,7 @@
+Model,Direction,BLEU
+MarianMT (fine-tuned),EN→HI,13.695139247375193
+MarianMT (zero-shot),EN→HI,9.85
+GRU + Attention,EN→HI,0.6055491481088403
+LSTM Seq2Seq (no attention),EN→HI,0.08650852124153295
+MarianMT (fine-tuned),HI→EN,14.97507663523769
+MarianMT (zero-shot),HI→EN,13.42

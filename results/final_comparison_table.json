@@ -1,0 +1,32 @@
+[
+  {
+    "Model": "MarianMT (fine-tuned)",
+    "Direction": "EN→HI",
+    "BLEU": 13.695139247375193
+  },
+  {
+    "Model": "MarianMT (zero-shot)",
+    "Direction": "EN→HI",
+    "BLEU": 9.85
+  },
+  {
+    "Model": "GRU + Attention",
+    "Direction": "EN→HI",
+    "BLEU": 0.6055491481088403
+  },
+  {
+    "Model": "LSTM Seq2Seq (no attention)",
+    "Direction": "EN→HI",
+    "BLEU": 0.08650852124153295
+  },
+  {
+    "Model": "MarianMT (fine-tuned)",
+    "Direction": "HI→EN",
+    "BLEU": 14.97507663523769
+  },
+  {
+    "Model": "MarianMT (zero-shot)",
+    "Direction": "HI→EN",
+    "BLEU": 13.42
+  }
+]
